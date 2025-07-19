@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rometh Tormi Raamatud ja Muusika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rometh Tormi Raamatud ja Muusika</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Minust</a></li>
+                <li><a href="#books">Raamatud</a></li>
+                <li><a href="#new-book">Uus Raamat</a></li>
+                <li><a href="#music">Muusika</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Minu kohta -->
+    <section id="about">
+        <h2>Minust</h2>
+        <p>Olen Rometh Torm, sündinud 23. aprillil 1987. Minu teekond kirjanduse ja muusika maailma on olnud keeruline ja tormiline...</p>
+    </section>
+
+    <!-- Raamatud -->
+    <section id="books">
+        <h2>Raamatud</h2>
+        
+        <!-- Raamat 1: Pudeliga pähe -->
+        <div class="book">
+            <img src="https://apollo.ee/path/to/raamat-pudeliga-paehe.jpg" alt="Raamat 'Pudeliga pähe'">
+            <h3>'Pudeliga pähe'</h3>
+            <p>Oled valmis astuma valusasse maailma, kus iga samm toob uusi valikuid ja ohte...</p>
+        </div>
+
+        <!-- Raamat 2: Dekadent pimeduses -->
+        <div class="book">
+            <img src="https://apollo.ee/path/to/raamat-dekadent-pimeduses.jpg" alt="Raamat 'Dekadent pimeduses'">
+            <h3>'Dekadent pimeduses'</h3>
+            <p>Teos räägib hinge mustadest nurkadest ja elus keerutavatest sõlmedest...</p>
+        </div>
+
+        <!-- Raamat 3: Linn ei unusta -->
+        <div class="book">
+            <img src="https://apollo.ee/path/to/raamat-linn-ei-unusta.jpg" alt="Raamat 'Linn ei unusta'">
+            <h3>'Linn ei unusta'</h3>
+            <p>Tallinn on julm. Ta ei küsi, kas sa oled valmis – ta testib, kui ruttu sa murdud...</p>
+        </div>
+    </section>
+
+    <!-- Muusika -->
+    <section id="music">
+        <h2>Kuula muusikat</h2>
+        
+        <!-- Video 1: Tormihoiatus - Minevikuradadel -->
+        <div class="music-video">
+            <h3>Tormihoiatus - Minevikuradadel</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/[video-id-1]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- Video 2: Otsingutel -->
+        <div class="music-video">
+            <h3>Tormihoiatus - Otsingutel</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/[video-id-2]" frameborder="0" allow="accelerometer; autoplay;
